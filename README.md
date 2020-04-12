@@ -4,7 +4,7 @@
 
 ### 运行脚本
 在程序目录运行此命令：
-```Shell
+```shell
 scrapy crawl book -o items.json
 ```
 ### 选择要爬取的Tag
@@ -15,4 +15,41 @@ class BookSpider(scrapy.Spider):
         'https://book.douban.com/tag/科技'
     ]
     ···
+```
+
+### 目前爬取的字段
+下一版本需要增加图片等信息：
+```python
+class BookItem(scrapy.Item):
+    book_name = scrapy.Field()
+    book_star = scrapy.Field()
+    book_pl = scrapy.Field()
+    book_author = scrapy.Field()
+    book_publish = scrapy.Field()
+    book_date = scrapy.Field()
+    book_price = scrapy.Field()
+```
+
+### json样例
+```json
+[
+{
+"book_name":"解忧杂货店",
+"book_star":"8.5",
+"book_pl":"(622241人评价)",
+"book_price":" 39.50元",
+"book_date":" 2014-5 ",
+"book_publish":" 南海出版公司 ",
+"book_author":"[日] 东野圭吾 / 李盈春 "
+},
+{
+"book_name":"白夜行",
+"book_star":"9.1",
+"book_pl":"(240275人评价)",
+"book_price":" 39.50元",
+"book_date":" 2013-1-1 ",
+"book_publish":" 南海出版公司 ",
+"book_author":"[日] 东野圭吾 / 刘姿君 "
+},
+···
 ```
