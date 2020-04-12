@@ -7,7 +7,7 @@
 ```shell
 scrapy crawl book -o items.json
 ```
-### 选择要爬取的Tag
+### 选择要爬取的Tag 在[book.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/book.py)中设置
 在spiders文件夹中的BookSpider类中更改（如科技类图书的爬取）：
 ```python
 class BookSpider(scrapy.Spider):
@@ -17,7 +17,7 @@ class BookSpider(scrapy.Spider):
     ···
 ```
 
-### 目前爬取的字段
+### 目前爬取的字段 在[items.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/items.py)中设置
 下一版本需要增加图片等信息：
 ```python
 class BookItem(scrapy.Item):
@@ -30,7 +30,8 @@ class BookItem(scrapy.Item):
     book_price = scrapy.Field()
 ```
 
-### json样例
+### JSON样例 [样例](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/items.json)
+JSON中的UTF-8中文字符需要解码！
 ```json
 [
 {
