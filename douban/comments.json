@@ -1,0 +1,835 @@
+[
+    {
+        "comment_user": "Fenng",
+        "comment_time": "2011-07-11",
+        "comment": "如果要了解互联网，这本是必读之书。",
+        "comment_useful": "275",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "豆总Jessica",
+        "comment_time": "2012-01-03",
+        "comment": "最近在看这本书和李开复的《世界因你不同》，无意中发现这两本书竟颇为互补──李同学是以自己亲身在苹果，微软，google等的工作经验来谈，更为感性和detail。。而吴同学则更以一种理性的旁观者态度来分析这些IT公司的朝代更替原因。恰恰，李博士几乎在每个IT公司势旺时进入，在势弱时退出。恰好吻合了吴同学的兴衰时间表。。没看过这两本书的同学推荐一起看。",
+        "comment_useful": "174",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "师北宸",
+        "comment_time": "2012-03-29",
+        "comment": "写得很差，完全不建议阅读。",
+        "comment_useful": "84",
+        "comment_star": "很差"
+    },
+    {
+        "comment_user": "一默",
+        "comment_time": "2014-03-08",
+        "comment": "#恒阅# 这本书给人最大的启发就是：一个企业能不能活可能是靠自己，但是死不死真的是靠命啊……什么企业基因论，不就是宿命吗？另外，作为一本介绍行业历史的书，如果一定要总结出一些规律，就必须做更深入严谨的研究，否则就可能出现本书的问题：同样的逻辑用在不同的企业案例上会出现矛盾……",
+        "comment_useful": "65",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "虚弱橙",
+        "comment_time": "2013-11-16",
+        "comment": "普及性介绍没有什么洞见9.1分有过誉之嫌",
+        "comment_useful": "34",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "Angela",
+        "comment_time": "2012-03-13",
+        "comment": "一本故事会，想不明白这本书在豆瓣上为什么得分这么高。先不说书中的观点是否值得商榷，单是书中举的事实例子就有不少是错的，比如把第一代Apple TV说成是豆腐块了。 又是一本被吹捧、炒作的书。",
+        "comment_useful": "30",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "土豆丝",
+        "comment_time": "2015-05-09",
+        "comment": "老实说，就着二手资料能写出这么一本书来我很惊讶，毫无干货。如果愿意了解各公司历史的尚可以一看，但这个网上都有啊。",
+        "comment_useful": "23",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "丁丁虫",
+        "comment_time": "2012-09-10",
+        "comment": "语气太随意，不是一本严肃作品。",
+        "comment_useful": "15",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "熊阿姨",
+        "comment_time": "2012-11-24",
+        "comment": "细致、全面，绝佳的入门书，只是这个领域的判断众说纷纭，就像张小龙的“我所说的都是错的”，即使再言之凿凿也未必准确。不知道新入门者从此对互联网的认识，有多少已经潜移默化打上了吴军的印记，未必是好事。",
+        "comment_useful": "16",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "OMG42",
+        "comment_time": "2012-01-06",
+        "comment": "一般一般，中国人特有的成功学气味太重。没有挣大钱或者很有社会影响就不重要吗？未必。。。",
+        "comment_useful": "12",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "彭萦",
+        "comment_time": "2012-06-25",
+        "comment": "有些章不错，但不算是出色的企业历史书，比如突兀的人称切换，比如洋洋洒洒的叙述。PS站在下一个浪潮巅峰的朋友们加油哦，五年十年后不要忘了给我亲友股~",
+        "comment_useful": "8",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "熊大茸",
+        "comment_time": "2015-09-17",
+        "comment": "很棒的了解IT领域的入门读物，全面且逻辑清晰。以IT界的科技变革为基础，到产业组织以及与资本的博弈，深刻而全面。",
+        "comment_useful": "6",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魏小河",
+        "comment_time": "2012-12-04",
+        "comment": "几个定律加公司兴衰，读出了三体的感觉，很爽。",
+        "comment_useful": "9",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风撼斜阳",
+        "comment_time": "2011-09-11",
+        "comment": "厌恶华尔街，喜欢斯坦福",
+        "comment_useful": "5",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方方土君",
+        "comment_time": "2011-10-20",
+        "comment": "「开始］2011.10.14，目前看了几个公司的故事，感觉有点不够详细、扎实。「读完」2011.10.20,这是在kindle上看的第二本书，已经逐渐习惯EINK，并开始享受科技与传统的融合。开始以为这只是又一本讲述硅谷、讲述那些高科技行业明星的揽财书，但随着阅读的深入发现自己错了，也庆幸自己错了。强烈推荐那些非IT人士也看一看这本书。就像一位德国诗人所说的：“亘古而常青的昨天永远是过去，也永远会再来。”历史总是会与你我一次次的开玩笑，用它螺旋上升中惊人的相似性。",
+        "comment_useful": "7",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邝海炎",
+        "comment_time": "2014-05-12",
+        "comment": "还可以，但9分也太高了吧，好像没这么好啊",
+        "comment_useful": "4",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "姜小白",
+        "comment_time": "2014-07-23",
+        "comment": "真真切切让人感受到，企业基因对于一个企业长期发展的重要性。因为读过《乔布斯传》，所以对于苹果公司的描述，哎，作者太马虎了啊，很多漏洞。",
+        "comment_useful": "4",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "放开那个西红柿",
+        "comment_time": "2011-11-11",
+        "comment": "除了华尔街的部分还比较有趣，其他的都比较枯燥。",
+        "comment_useful": "3",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "和尚",
+        "comment_time": "2019-01-01",
+        "comment": "在吴晓波的书中，我们能看到对中国短暂的现代商业史中消逝公司的惋惜，实际上我们也常假设：某某公司若还存在会如何。但世间没有如果，这本书给了一个很独特的视角：“一个公司的死亡是对社会最后的一次贡献”。既然一个公司无法再适应，那能通过自身的消逝为后来者提供警示和腾出市场资源，伤害的是自己，但有利于整个社会。这个自由主义十足的观点，也适用于我们这个正在极度变化和充满竞争中社会的每个个体。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hiro",
+        "comment_time": "2012-08-31",
+        "comment": "生在这个时代最大的幸运就是可以看到商业和科学技术完美结合不断的改变这个世界的面貌，不断的改变我们的生活方式。   吴军博士不断的说能赶上科技发展的浪潮便不枉此生，每次读到这，心里都很不受用。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hushlight",
+        "comment_time": "2014-03-03",
+        "comment": "因为这个名字加畅销书属性，我以为是本夸夸其谈的成功学，所以到现在才看完。蛮有意思的IT史，文笔朴实生动。批评的声音多指此书结论过于简略，细节失之确凿，没有一手材料。我嚼着这书本来定位也不是商学院案例分析，几十块钱能让你知道以前不知道的东西，还想要什么啊",
+        "comment_useful": "2",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "Elact",
+        "comment_time": "2012-08-05",
+        "comment": "4.3星，战略，绝对值得看的书。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "菠菜",
+        "comment_time": "2013-04-05",
+        "comment": "随便看看，不过作为一个八卦钱和技术的题材，有点浪费了这个题材的趣味性，理工科男人写的八卦书嘛不能要求太高",
+        "comment_useful": "2",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "朦胧熊",
+        "comment_time": "2016-09-11",
+        "comment": "拿来当入门背景知识学习还是可以的",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "大头绿豆",
+        "comment_time": "2011-10-01",
+        "comment": "平实从容，高度浓缩但脉络分明，看过的最好的IT故事书。虽然有些观点不能同意，但他所陈述的事实很开眼界。排版考究：英文字体优雅（似是Sylfaen但细节有偏差）；从目录开始就显用心；大16开；奇偶页面外侧留白较多，适合笔记；注释同行放置，看得不累；互联网常用格式很自然（句首未空两行，段落间隔行，可接受）；行距舒服。",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "傅踢踢",
+        "comment_time": "2014-09-03",
+        "comment": "了解互联网和商业的必读书",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "小偷|隐忍沉定",
+        "comment_time": "2012-07-19",
+        "comment": "kindle，整体分析，行业入门读物",
+        "comment_useful": "1",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "藥師",
+        "comment_time": "2014-03-10",
+        "comment": "2014.2.17-3.10 怎么称赞都不为过，解答了我的很多迷惑。",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "启明君",
+        "comment_time": "2013-04-24",
+        "comment": "读至第九章，再加上后面的部分感兴趣内容，看到大家指出的细节错漏太多，不想再看。",
+        "comment_useful": "2",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "潘乱",
+        "comment_time": "2012-04-14",
+        "comment": "讲述了硅谷的历史，从技术、资本、机制三个维度剖析描述了世界IT弄潮儿公司的兴衰，总结了科技行业的态势规律，值得每个IT从业人员一读。科技的发展常以浪潮的形式出现，人生最幸运之事就是发现和顺应这个潮流。",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "null",
+        "comment_time": "2016-08-06",
+        "comment": "读得有点晚了，早几年看可能会对自己有更多启示性的价值。独角兽式的成功不仅不可预测，事后回顾也往往难以找准原因。结论待推敲，逻辑可学习。",
+        "comment_useful": "3",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "叶卡",
+        "comment_time": "2011-07-05",
+        "comment": "李开复为这本书写序推荐，说：《浪潮之巅》不是一本历史书，因为书中着力描述的，很多尚在普及或将要发生，比如微博与云计算，又比如对下一代互联网科技产业浪潮的判断和预测。从文字中可以看出，作者对科技、对创新、对互联网都充满“虔诚”信仰，并为之激情四射。\n\n我想，对所有身处并热爱高科技行业的人来说，对所有渴望创新、欣赏创新的中国创业者来说，《浪潮之巅》都是一本可读性很强的作品，足以做到“开卷有益”！",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "诡辩",
+        "comment_time": "2012-02-01",
+        "comment": "我真心觉得好一般...包括\"数学之美\"。不知道评分为什么这么高",
+        "comment_useful": "2",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "AliceJ",
+        "comment_time": "2014-05-05",
+        "comment": "美国互联网电子巨头发展史",
+        "comment_useful": "1",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "字润不知",
+        "comment_time": "2019-10-18",
+        "comment": "好书，必看。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "莲子清如许",
+        "comment_time": "2011-12-18",
+        "comment": "这本书是路上花一小时听读过的人讲了一遍，挺有收获的，知道了IT业的各种兴衰发展史。",
+        "comment_useful": "1",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "shininglove",
+        "comment_time": "2020-02-20",
+        "comment": "亘古而常青的昨天永远是过去，也永远会再来。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "极光隐™",
+        "comment_time": "2011-09-02",
+        "comment": "指尖的历史。对于一个公司来讲，赶上一次浪潮不能保证它长盛不衰；但是，对于一个人来讲，一生赶上这样一次浪潮就足够了。",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "freetstar",
+        "comment_time": "2011-10-13",
+        "comment": "了解互联网浪潮中的历史与点滴，必读",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Fenng",
+        "comment_time": "2011-07-11",
+        "comment": "如果要了解互联网，这本是必读之书。",
+        "comment_useful": "275",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "豆总Jessica",
+        "comment_time": "2012-01-03",
+        "comment": "最近在看这本书和李开复的《世界因你不同》，无意中发现这两本书竟颇为互补──李同学是以自己亲身在苹果，微软，google等的工作经验来谈，更为感性和detail。。而吴同学则更以一种理性的旁观者态度来分析这些IT公司的朝代更替原因。恰恰，李博士几乎在每个IT公司势旺时进入，在势弱时退出。恰好吻合了吴同学的兴衰时间表。。没看过这两本书的同学推荐一起看。",
+        "comment_useful": "174",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "师北宸",
+        "comment_time": "2012-03-29",
+        "comment": "写得很差，完全不建议阅读。",
+        "comment_useful": "84",
+        "comment_star": "很差"
+    },
+    {
+        "comment_user": "一默",
+        "comment_time": "2014-03-08",
+        "comment": "#恒阅# 这本书给人最大的启发就是：一个企业能不能活可能是靠自己，但是死不死真的是靠命啊……什么企业基因论，不就是宿命吗？另外，作为一本介绍行业历史的书，如果一定要总结出一些规律，就必须做更深入严谨的研究，否则就可能出现本书的问题：同样的逻辑用在不同的企业案例上会出现矛盾……",
+        "comment_useful": "65",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "虚弱橙",
+        "comment_time": "2013-11-16",
+        "comment": "普及性介绍没有什么洞见9.1分有过誉之嫌",
+        "comment_useful": "34",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "Angela",
+        "comment_time": "2012-03-13",
+        "comment": "一本故事会，想不明白这本书在豆瓣上为什么得分这么高。先不说书中的观点是否值得商榷，单是书中举的事实例子就有不少是错的，比如把第一代Apple TV说成是豆腐块了。 又是一本被吹捧、炒作的书。",
+        "comment_useful": "30",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "土豆丝",
+        "comment_time": "2015-05-09",
+        "comment": "老实说，就着二手资料能写出这么一本书来我很惊讶，毫无干货。如果愿意了解各公司历史的尚可以一看，但这个网上都有啊。",
+        "comment_useful": "23",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "丁丁虫",
+        "comment_time": "2012-09-10",
+        "comment": "语气太随意，不是一本严肃作品。",
+        "comment_useful": "15",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "熊阿姨",
+        "comment_time": "2012-11-24",
+        "comment": "细致、全面，绝佳的入门书，只是这个领域的判断众说纷纭，就像张小龙的“我所说的都是错的”，即使再言之凿凿也未必准确。不知道新入门者从此对互联网的认识，有多少已经潜移默化打上了吴军的印记，未必是好事。",
+        "comment_useful": "16",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "OMG42",
+        "comment_time": "2012-01-06",
+        "comment": "一般一般，中国人特有的成功学气味太重。没有挣大钱或者很有社会影响就不重要吗？未必。。。",
+        "comment_useful": "12",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "彭萦",
+        "comment_time": "2012-06-25",
+        "comment": "有些章不错，但不算是出色的企业历史书，比如突兀的人称切换，比如洋洋洒洒的叙述。PS站在下一个浪潮巅峰的朋友们加油哦，五年十年后不要忘了给我亲友股~",
+        "comment_useful": "8",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "熊大茸",
+        "comment_time": "2015-09-17",
+        "comment": "很棒的了解IT领域的入门读物，全面且逻辑清晰。以IT界的科技变革为基础，到产业组织以及与资本的博弈，深刻而全面。",
+        "comment_useful": "6",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魏小河",
+        "comment_time": "2012-12-04",
+        "comment": "几个定律加公司兴衰，读出了三体的感觉，很爽。",
+        "comment_useful": "9",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风撼斜阳",
+        "comment_time": "2011-09-11",
+        "comment": "厌恶华尔街，喜欢斯坦福",
+        "comment_useful": "5",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方方土君",
+        "comment_time": "2011-10-20",
+        "comment": "「开始］2011.10.14，目前看了几个公司的故事，感觉有点不够详细、扎实。「读完」2011.10.20,这是在kindle上看的第二本书，已经逐渐习惯EINK，并开始享受科技与传统的融合。开始以为这只是又一本讲述硅谷、讲述那些高科技行业明星的揽财书，但随着阅读的深入发现自己错了，也庆幸自己错了。强烈推荐那些非IT人士也看一看这本书。就像一位德国诗人所说的：“亘古而常青的昨天永远是过去，也永远会再来。”历史总是会与你我一次次的开玩笑，用它螺旋上升中惊人的相似性。",
+        "comment_useful": "7",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邝海炎",
+        "comment_time": "2014-05-12",
+        "comment": "还可以，但9分也太高了吧，好像没这么好啊",
+        "comment_useful": "4",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "姜小白",
+        "comment_time": "2014-07-23",
+        "comment": "真真切切让人感受到，企业基因对于一个企业长期发展的重要性。因为读过《乔布斯传》，所以对于苹果公司的描述，哎，作者太马虎了啊，很多漏洞。",
+        "comment_useful": "4",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "放开那个西红柿",
+        "comment_time": "2011-11-11",
+        "comment": "除了华尔街的部分还比较有趣，其他的都比较枯燥。",
+        "comment_useful": "3",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "和尚",
+        "comment_time": "2019-01-01",
+        "comment": "在吴晓波的书中，我们能看到对中国短暂的现代商业史中消逝公司的惋惜，实际上我们也常假设：某某公司若还存在会如何。但世间没有如果，这本书给了一个很独特的视角：“一个公司的死亡是对社会最后的一次贡献”。既然一个公司无法再适应，那能通过自身的消逝为后来者提供警示和腾出市场资源，伤害的是自己，但有利于整个社会。这个自由主义十足的观点，也适用于我们这个正在极度变化和充满竞争中社会的每个个体。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hiro",
+        "comment_time": "2012-08-31",
+        "comment": "生在这个时代最大的幸运就是可以看到商业和科学技术完美结合不断的改变这个世界的面貌，不断的改变我们的生活方式。   吴军博士不断的说能赶上科技发展的浪潮便不枉此生，每次读到这，心里都很不受用。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Fenng",
+        "comment_time": "2011-07-11",
+        "comment": "如果要了解互联网，这本是必读之书。",
+        "comment_useful": "275",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "豆总Jessica",
+        "comment_time": "2012-01-03",
+        "comment": "最近在看这本书和李开复的《世界因你不同》，无意中发现这两本书竟颇为互补──李同学是以自己亲身在苹果，微软，google等的工作经验来谈，更为感性和detail。。而吴同学则更以一种理性的旁观者态度来分析这些IT公司的朝代更替原因。恰恰，李博士几乎在每个IT公司势旺时进入，在势弱时退出。恰好吻合了吴同学的兴衰时间表。。没看过这两本书的同学推荐一起看。",
+        "comment_useful": "174",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "师北宸",
+        "comment_time": "2012-03-29",
+        "comment": "写得很差，完全不建议阅读。",
+        "comment_useful": "84",
+        "comment_star": "很差"
+    },
+    {
+        "comment_user": "一默",
+        "comment_time": "2014-03-08",
+        "comment": "#恒阅# 这本书给人最大的启发就是：一个企业能不能活可能是靠自己，但是死不死真的是靠命啊……什么企业基因论，不就是宿命吗？另外，作为一本介绍行业历史的书，如果一定要总结出一些规律，就必须做更深入严谨的研究，否则就可能出现本书的问题：同样的逻辑用在不同的企业案例上会出现矛盾……",
+        "comment_useful": "65",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "虚弱橙",
+        "comment_time": "2013-11-16",
+        "comment": "普及性介绍没有什么洞见9.1分有过誉之嫌",
+        "comment_useful": "34",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "Angela",
+        "comment_time": "2012-03-13",
+        "comment": "一本故事会，想不明白这本书在豆瓣上为什么得分这么高。先不说书中的观点是否值得商榷，单是书中举的事实例子就有不少是错的，比如把第一代Apple TV说成是豆腐块了。 又是一本被吹捧、炒作的书。",
+        "comment_useful": "30",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "土豆丝",
+        "comment_time": "2015-05-09",
+        "comment": "老实说，就着二手资料能写出这么一本书来我很惊讶，毫无干货。如果愿意了解各公司历史的尚可以一看，但这个网上都有啊。",
+        "comment_useful": "23",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "丁丁虫",
+        "comment_time": "2012-09-10",
+        "comment": "语气太随意，不是一本严肃作品。",
+        "comment_useful": "15",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "熊阿姨",
+        "comment_time": "2012-11-24",
+        "comment": "细致、全面，绝佳的入门书，只是这个领域的判断众说纷纭，就像张小龙的“我所说的都是错的”，即使再言之凿凿也未必准确。不知道新入门者从此对互联网的认识，有多少已经潜移默化打上了吴军的印记，未必是好事。",
+        "comment_useful": "16",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "OMG42",
+        "comment_time": "2012-01-06",
+        "comment": "一般一般，中国人特有的成功学气味太重。没有挣大钱或者很有社会影响就不重要吗？未必。。。",
+        "comment_useful": "12",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "彭萦",
+        "comment_time": "2012-06-25",
+        "comment": "有些章不错，但不算是出色的企业历史书，比如突兀的人称切换，比如洋洋洒洒的叙述。PS站在下一个浪潮巅峰的朋友们加油哦，五年十年后不要忘了给我亲友股~",
+        "comment_useful": "8",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "熊大茸",
+        "comment_time": "2015-09-17",
+        "comment": "很棒的了解IT领域的入门读物，全面且逻辑清晰。以IT界的科技变革为基础，到产业组织以及与资本的博弈，深刻而全面。",
+        "comment_useful": "6",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魏小河",
+        "comment_time": "2012-12-04",
+        "comment": "几个定律加公司兴衰，读出了三体的感觉，很爽。",
+        "comment_useful": "9",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风撼斜阳",
+        "comment_time": "2011-09-11",
+        "comment": "厌恶华尔街，喜欢斯坦福",
+        "comment_useful": "5",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方方土君",
+        "comment_time": "2011-10-20",
+        "comment": "「开始］2011.10.14，目前看了几个公司的故事，感觉有点不够详细、扎实。「读完」2011.10.20,这是在kindle上看的第二本书，已经逐渐习惯EINK，并开始享受科技与传统的融合。开始以为这只是又一本讲述硅谷、讲述那些高科技行业明星的揽财书，但随着阅读的深入发现自己错了，也庆幸自己错了。强烈推荐那些非IT人士也看一看这本书。就像一位德国诗人所说的：“亘古而常青的昨天永远是过去，也永远会再来。”历史总是会与你我一次次的开玩笑，用它螺旋上升中惊人的相似性。",
+        "comment_useful": "7",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邝海炎",
+        "comment_time": "2014-05-12",
+        "comment": "还可以，但9分也太高了吧，好像没这么好啊",
+        "comment_useful": "4",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "姜小白",
+        "comment_time": "2014-07-23",
+        "comment": "真真切切让人感受到，企业基因对于一个企业长期发展的重要性。因为读过《乔布斯传》，所以对于苹果公司的描述，哎，作者太马虎了啊，很多漏洞。",
+        "comment_useful": "4",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "放开那个西红柿",
+        "comment_time": "2011-11-11",
+        "comment": "除了华尔街的部分还比较有趣，其他的都比较枯燥。",
+        "comment_useful": "3",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "和尚",
+        "comment_time": "2019-01-01",
+        "comment": "在吴晓波的书中，我们能看到对中国短暂的现代商业史中消逝公司的惋惜，实际上我们也常假设：某某公司若还存在会如何。但世间没有如果，这本书给了一个很独特的视角：“一个公司的死亡是对社会最后的一次贡献”。既然一个公司无法再适应，那能通过自身的消逝为后来者提供警示和腾出市场资源，伤害的是自己，但有利于整个社会。这个自由主义十足的观点，也适用于我们这个正在极度变化和充满竞争中社会的每个个体。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hiro",
+        "comment_time": "2012-08-31",
+        "comment": "生在这个时代最大的幸运就是可以看到商业和科学技术完美结合不断的改变这个世界的面貌，不断的改变我们的生活方式。   吴军博士不断的说能赶上科技发展的浪潮便不枉此生，每次读到这，心里都很不受用。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Fenng",
+        "comment_time": "2011-07-11",
+        "comment": "如果要了解互联网，这本是必读之书。",
+        "comment_useful": "275",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "豆总Jessica",
+        "comment_time": "2012-01-03",
+        "comment": "最近在看这本书和李开复的《世界因你不同》，无意中发现这两本书竟颇为互补──李同学是以自己亲身在苹果，微软，google等的工作经验来谈，更为感性和detail。。而吴同学则更以一种理性的旁观者态度来分析这些IT公司的朝代更替原因。恰恰，李博士几乎在每个IT公司势旺时进入，在势弱时退出。恰好吻合了吴同学的兴衰时间表。。没看过这两本书的同学推荐一起看。",
+        "comment_useful": "174",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "师北宸",
+        "comment_time": "2012-03-29",
+        "comment": "写得很差，完全不建议阅读。",
+        "comment_useful": "84",
+        "comment_star": "很差"
+    },
+    {
+        "comment_user": "一默",
+        "comment_time": "2014-03-08",
+        "comment": "#恒阅# 这本书给人最大的启发就是：一个企业能不能活可能是靠自己，但是死不死真的是靠命啊……什么企业基因论，不就是宿命吗？另外，作为一本介绍行业历史的书，如果一定要总结出一些规律，就必须做更深入严谨的研究，否则就可能出现本书的问题：同样的逻辑用在不同的企业案例上会出现矛盾……",
+        "comment_useful": "65",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "虚弱橙",
+        "comment_time": "2013-11-16",
+        "comment": "普及性介绍没有什么洞见9.1分有过誉之嫌",
+        "comment_useful": "34",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "Angela",
+        "comment_time": "2012-03-13",
+        "comment": "一本故事会，想不明白这本书在豆瓣上为什么得分这么高。先不说书中的观点是否值得商榷，单是书中举的事实例子就有不少是错的，比如把第一代Apple TV说成是豆腐块了。 又是一本被吹捧、炒作的书。",
+        "comment_useful": "30",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "土豆丝",
+        "comment_time": "2015-05-09",
+        "comment": "老实说，就着二手资料能写出这么一本书来我很惊讶，毫无干货。如果愿意了解各公司历史的尚可以一看，但这个网上都有啊。",
+        "comment_useful": "23",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "丁丁虫",
+        "comment_time": "2012-09-10",
+        "comment": "语气太随意，不是一本严肃作品。",
+        "comment_useful": "15",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "熊阿姨",
+        "comment_time": "2012-11-24",
+        "comment": "细致、全面，绝佳的入门书，只是这个领域的判断众说纷纭，就像张小龙的“我所说的都是错的”，即使再言之凿凿也未必准确。不知道新入门者从此对互联网的认识，有多少已经潜移默化打上了吴军的印记，未必是好事。",
+        "comment_useful": "16",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "OMG42",
+        "comment_time": "2012-01-06",
+        "comment": "一般一般，中国人特有的成功学气味太重。没有挣大钱或者很有社会影响就不重要吗？未必。。。",
+        "comment_useful": "12",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "彭萦",
+        "comment_time": "2012-06-25",
+        "comment": "有些章不错，但不算是出色的企业历史书，比如突兀的人称切换，比如洋洋洒洒的叙述。PS站在下一个浪潮巅峰的朋友们加油哦，五年十年后不要忘了给我亲友股~",
+        "comment_useful": "8",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "熊大茸",
+        "comment_time": "2015-09-17",
+        "comment": "很棒的了解IT领域的入门读物，全面且逻辑清晰。以IT界的科技变革为基础，到产业组织以及与资本的博弈，深刻而全面。",
+        "comment_useful": "6",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魏小河",
+        "comment_time": "2012-12-04",
+        "comment": "几个定律加公司兴衰，读出了三体的感觉，很爽。",
+        "comment_useful": "9",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风撼斜阳",
+        "comment_time": "2011-09-11",
+        "comment": "厌恶华尔街，喜欢斯坦福",
+        "comment_useful": "5",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方方土君",
+        "comment_time": "2011-10-20",
+        "comment": "「开始］2011.10.14，目前看了几个公司的故事，感觉有点不够详细、扎实。「读完」2011.10.20,这是在kindle上看的第二本书，已经逐渐习惯EINK，并开始享受科技与传统的融合。开始以为这只是又一本讲述硅谷、讲述那些高科技行业明星的揽财书，但随着阅读的深入发现自己错了，也庆幸自己错了。强烈推荐那些非IT人士也看一看这本书。就像一位德国诗人所说的：“亘古而常青的昨天永远是过去，也永远会再来。”历史总是会与你我一次次的开玩笑，用它螺旋上升中惊人的相似性。",
+        "comment_useful": "7",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邝海炎",
+        "comment_time": "2014-05-12",
+        "comment": "还可以，但9分也太高了吧，好像没这么好啊",
+        "comment_useful": "4",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "姜小白",
+        "comment_time": "2014-07-23",
+        "comment": "真真切切让人感受到，企业基因对于一个企业长期发展的重要性。因为读过《乔布斯传》，所以对于苹果公司的描述，哎，作者太马虎了啊，很多漏洞。",
+        "comment_useful": "4",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "放开那个西红柿",
+        "comment_time": "2011-11-11",
+        "comment": "除了华尔街的部分还比较有趣，其他的都比较枯燥。",
+        "comment_useful": "3",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "和尚",
+        "comment_time": "2019-01-01",
+        "comment": "在吴晓波的书中，我们能看到对中国短暂的现代商业史中消逝公司的惋惜，实际上我们也常假设：某某公司若还存在会如何。但世间没有如果，这本书给了一个很独特的视角：“一个公司的死亡是对社会最后的一次贡献”。既然一个公司无法再适应，那能通过自身的消逝为后来者提供警示和腾出市场资源，伤害的是自己，但有利于整个社会。这个自由主义十足的观点，也适用于我们这个正在极度变化和充满竞争中社会的每个个体。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hiro",
+        "comment_time": "2012-08-31",
+        "comment": "生在这个时代最大的幸运就是可以看到商业和科学技术完美结合不断的改变这个世界的面貌，不断的改变我们的生活方式。   吴军博士不断的说能赶上科技发展的浪潮便不枉此生，每次读到这，心里都很不受用。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Fenng",
+        "comment_time": "2011-07-11",
+        "comment": "如果要了解互联网，这本是必读之书。",
+        "comment_useful": "275",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "豆总Jessica",
+        "comment_time": "2012-01-03",
+        "comment": "最近在看这本书和李开复的《世界因你不同》，无意中发现这两本书竟颇为互补──李同学是以自己亲身在苹果，微软，google等的工作经验来谈，更为感性和detail。。而吴同学则更以一种理性的旁观者态度来分析这些IT公司的朝代更替原因。恰恰，李博士几乎在每个IT公司势旺时进入，在势弱时退出。恰好吻合了吴同学的兴衰时间表。。没看过这两本书的同学推荐一起看。",
+        "comment_useful": "174",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "师北宸",
+        "comment_time": "2012-03-29",
+        "comment": "写得很差，完全不建议阅读。",
+        "comment_useful": "84",
+        "comment_star": "很差"
+    },
+    {
+        "comment_user": "一默",
+        "comment_time": "2014-03-08",
+        "comment": "#恒阅# 这本书给人最大的启发就是：一个企业能不能活可能是靠自己，但是死不死真的是靠命啊……什么企业基因论，不就是宿命吗？另外，作为一本介绍行业历史的书，如果一定要总结出一些规律，就必须做更深入严谨的研究，否则就可能出现本书的问题：同样的逻辑用在不同的企业案例上会出现矛盾……",
+        "comment_useful": "65",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "虚弱橙",
+        "comment_time": "2013-11-16",
+        "comment": "普及性介绍没有什么洞见9.1分有过誉之嫌",
+        "comment_useful": "34",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "Angela",
+        "comment_time": "2012-03-13",
+        "comment": "一本故事会，想不明白这本书在豆瓣上为什么得分这么高。先不说书中的观点是否值得商榷，单是书中举的事实例子就有不少是错的，比如把第一代Apple TV说成是豆腐块了。 又是一本被吹捧、炒作的书。",
+        "comment_useful": "30",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "土豆丝",
+        "comment_time": "2015-05-09",
+        "comment": "老实说，就着二手资料能写出这么一本书来我很惊讶，毫无干货。如果愿意了解各公司历史的尚可以一看，但这个网上都有啊。",
+        "comment_useful": "23",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "丁丁虫",
+        "comment_time": "2012-09-10",
+        "comment": "语气太随意，不是一本严肃作品。",
+        "comment_useful": "15",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "熊阿姨",
+        "comment_time": "2012-11-24",
+        "comment": "细致、全面，绝佳的入门书，只是这个领域的判断众说纷纭，就像张小龙的“我所说的都是错的”，即使再言之凿凿也未必准确。不知道新入门者从此对互联网的认识，有多少已经潜移默化打上了吴军的印记，未必是好事。",
+        "comment_useful": "16",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "OMG42",
+        "comment_time": "2012-01-06",
+        "comment": "一般一般，中国人特有的成功学气味太重。没有挣大钱或者很有社会影响就不重要吗？未必。。。",
+        "comment_useful": "12",
+        "comment_star": "较差"
+    },
+    {
+        "comment_user": "彭萦",
+        "comment_time": "2012-06-25",
+        "comment": "有些章不错，但不算是出色的企业历史书，比如突兀的人称切换，比如洋洋洒洒的叙述。PS站在下一个浪潮巅峰的朋友们加油哦，五年十年后不要忘了给我亲友股~",
+        "comment_useful": "8",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "熊大茸",
+        "comment_time": "2015-09-17",
+        "comment": "很棒的了解IT领域的入门读物，全面且逻辑清晰。以IT界的科技变革为基础，到产业组织以及与资本的博弈，深刻而全面。",
+        "comment_useful": "6",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魏小河",
+        "comment_time": "2012-12-04",
+        "comment": "几个定律加公司兴衰，读出了三体的感觉，很爽。",
+        "comment_useful": "9",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风撼斜阳",
+        "comment_time": "2011-09-11",
+        "comment": "厌恶华尔街，喜欢斯坦福",
+        "comment_useful": "5",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方方土君",
+        "comment_time": "2011-10-20",
+        "comment": "「开始］2011.10.14，目前看了几个公司的故事，感觉有点不够详细、扎实。「读完」2011.10.20,这是在kindle上看的第二本书，已经逐渐习惯EINK，并开始享受科技与传统的融合。开始以为这只是又一本讲述硅谷、讲述那些高科技行业明星的揽财书，但随着阅读的深入发现自己错了，也庆幸自己错了。强烈推荐那些非IT人士也看一看这本书。就像一位德国诗人所说的：“亘古而常青的昨天永远是过去，也永远会再来。”历史总是会与你我一次次的开玩笑，用它螺旋上升中惊人的相似性。",
+        "comment_useful": "7",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邝海炎",
+        "comment_time": "2014-05-12",
+        "comment": "还可以，但9分也太高了吧，好像没这么好啊",
+        "comment_useful": "4",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "姜小白",
+        "comment_time": "2014-07-23",
+        "comment": "真真切切让人感受到，企业基因对于一个企业长期发展的重要性。因为读过《乔布斯传》，所以对于苹果公司的描述，哎，作者太马虎了啊，很多漏洞。",
+        "comment_useful": "4",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "放开那个西红柿",
+        "comment_time": "2011-11-11",
+        "comment": "除了华尔街的部分还比较有趣，其他的都比较枯燥。",
+        "comment_useful": "3",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "和尚",
+        "comment_time": "2019-01-01",
+        "comment": "在吴晓波的书中，我们能看到对中国短暂的现代商业史中消逝公司的惋惜，实际上我们也常假设：某某公司若还存在会如何。但世间没有如果，这本书给了一个很独特的视角：“一个公司的死亡是对社会最后的一次贡献”。既然一个公司无法再适应，那能通过自身的消逝为后来者提供警示和腾出市场资源，伤害的是自己，但有利于整个社会。这个自由主义十足的观点，也适用于我们这个正在极度变化和充满竞争中社会的每个个体。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "hiro",
+        "comment_time": "2012-08-31",
+        "comment": "生在这个时代最大的幸运就是可以看到商业和科学技术完美结合不断的改变这个世界的面貌，不断的改变我们的生活方式。   吴军博士不断的说能赶上科技发展的浪潮便不枉此生，每次读到这，心里都很不受用。",
+        "comment_useful": "3",
+        "comment_star": "力荐"
+    }
+]
