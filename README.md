@@ -5,15 +5,15 @@
 
 ### 运行脚本
 1. 爬取书本
-- 在程序目录运行此命令：
-- ```shell
-- scrapy crawl book -o books.json
-- ```
-2. 爬取评论
-- 在程序目录运行此命令：
-- ```shell
-- scrapy crawl comment -o comments.json
-- ```
+在程序目录运行此命令：
+```shell
+scrapy crawl book -o books.json
+```
+1. 爬取评论
+在程序目录运行此命令：
+```shell
+scrapy crawl comment -o comments.json
+```
 
 ### 选择要爬取的Tag/BookID 在[book.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/book.py) 或者 [comment.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/comment.py)中设置
 在spiders文件夹中的BookSpider类中更改（如科技类图书的爬取）：
