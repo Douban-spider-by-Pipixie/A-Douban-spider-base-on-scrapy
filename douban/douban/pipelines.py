@@ -5,10 +5,20 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
+import codecs
+import json
+
 
 class DoubanPipeline(object):
+    '''
+    def __init__(self):
+        self.file = codecs.open('result.json','wb','utf-8')
+
     def process_item(self, item, spider):
+        line = json.dumps(dict(item))+'\n'
+        self.file.write(line.encode('utf-8').decode("unicode_escape"))
         return item
+    '''
 
     # def __init__(self):
     #     # 连接数据库
@@ -20,17 +30,17 @@ class DoubanPipeline(object):
     #         passwd='16251425Zyq',  # 数据库密码
     #         charset='utf8',  # 编码方式
     #         use_unicode=True)
-    # 
+    #
     #     # 通过cursor执行增删查改
     #     self.cursor = self.connect.cursor()
-    # 
+    #
     # def open_spider(self, spider):
     #     print("爬虫开始....")
-    # 
+    #
     # def process_item(self, item, spider):
     #     self.insert_db(item)
     #     return item
-    # 
+    #
     # def insert_db(self, item):
     #     values = (
     #         item['book_name'],
@@ -50,7 +60,7 @@ class DoubanPipeline(object):
     #         print("Insert to DB failed")
     #         self.connect.commit()
     #         self.connect.close()
-    # 
+    #
     # def close_spider(self, spoder):
     #     self.connect.commit()
     #     self.connect.close()

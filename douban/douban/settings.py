@@ -22,11 +22,20 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # Obey robots.txt rules
 
-DOWNLOAD_DELAY = 2
+#DOWNLOAD_DELAY = 2
 
 COOKIES_ENABLED = False
 
 ROBOTSTXT_OBEY = False
+
+FEED_EXPORT_ENCODING = 'utf-8'
+
+'''
+ITEM_PIPELINES = {
+    'douban.pipelines.DoubanPipeline': 300,
+}
+'''
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

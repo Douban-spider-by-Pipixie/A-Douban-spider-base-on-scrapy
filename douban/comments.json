@@ -460,5 +460,593 @@
         "comment": "那些传奇的故事~ 淡色而精彩",
         "comment_useful": "1",
         "comment_star": "推荐"
+    },
+    {
+        "comment_user": "跳叫板",
+        "comment_time": "2006-09-17",
+        "comment": "三毛 初中的精神粮食",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "会跳舞的打字机",
+        "comment_time": "2008-04-03",
+        "comment": "每次读都要哭",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "乐安蓝",
+        "comment_time": "2008-03-05",
+        "comment": "喜欢三毛，喜欢她的真实、率性、不做作。如果你歌颂美，即使身处沙漠，也会有人为你鼓掌！",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "伊西多拉",
+        "comment_time": "2008-11-17",
+        "comment": "三毛的书都喜欢，这本是我最喜欢的！",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Denise",
+        "comment_time": "2017-02-26",
+        "comment": "这种生活 可望不可即 美好 但是又有些刺激的事物存在 使他们能在百分之百的沙漠里感受到百分之百的依靠和温暖",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "素喜°",
+        "comment_time": "2009-11-09",
+        "comment": "关于爱的奔赴。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "捏墨",
+        "comment_time": "2007-07-27",
+        "comment": "流浪啊～",
+        "comment_useful": "1",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "裙子儿",
+        "comment_time": "2008-07-14",
+        "comment": "好看",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "宋痴",
+        "comment_time": "2013-01-28",
+        "comment": "直爽 灵气。",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Maurice Moss",
+        "comment_time": "2012-07-24",
+        "comment": "奇女子。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "汤之问棘",
+        "comment_time": "2011-04-29",
+        "comment": "妙趣横生",
+        "comment_useful": "1",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "夕阳罐头",
+        "comment_time": "2010-11-06",
+        "comment": "三毛你让我怎么办才好，",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "喜欢读书的小熊",
+        "comment_time": "2018-01-23",
+        "comment": "荷西问三毛：你想嫁个什么样的人？三毛说：看的顺眼的，千万富翁也嫁；看不顺眼的，亿万富翁也嫁。荷西：说来说去还是想嫁个有钱的。三毛看了荷西一眼：也有例外。那你要是嫁给我呢？荷西问道。三毛叹了口气：要是你的话，只要够吃饭的钱就够了。那你吃得多吗？荷西问。不多不多，以后还可以少吃点。",
+        "comment_useful": "4",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "临界",
+        "comment_time": "2007-09-12",
+        "comment": "小学",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "阿口",
+        "comment_time": "2008-02-02",
+        "comment": "看的第一本三毛的书，每一篇都很精彩。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "[已注销]",
+        "comment_time": "2012-08-16",
+        "comment": "One of A Kind, indeed~~",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "艾玲",
+        "comment_time": "2009-05-21",
+        "comment": "令人向往的生活啊",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "大冒险家",
+        "comment_time": "2013-02-13",
+        "comment": "很小就看过＜三毛流浪记＞，却直到现在才看三毛如此有意思的书。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "小马过河",
+        "comment_time": "2009-04-01",
+        "comment": "三毛写的东西我都听喜欢。尤其是这本书。感觉是一个女性洗尽铅华以后对世事不再纠结，以一种坦然纯净的心态去面对世间的烦扰。看过以后心情舒畅。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "ocean",
+        "comment_time": "2010-07-08",
+        "comment": "很小的时候读的,从此中了她的毒.\r\n小黄瓜炒肉片~~",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "木子丹3.0",
+        "comment_time": "2007-02-11",
+        "comment": "三毛和荷西,亦是平淡中见真情的爱.令人倾羡的的爱.",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "机智勇敢昭昭昭",
+        "comment_time": "2008-08-07",
+        "comment": "三毛之所以为三毛，是因为撒哈拉。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "cruyff",
+        "comment_time": "2007-08-19",
+        "comment": "重读三毛，已不复有当初新奇的感觉，但仍然值得一读",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "summer",
+        "comment_time": "2012-02-04",
+        "comment": "真切，热烈",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "taco",
+        "comment_time": "2007-11-15",
+        "comment": "看过真想去撒哈拉",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "Keira.C",
+        "comment_time": "2007-09-18",
+        "comment": "喜欢三毛",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "嘉树休养中",
+        "comment_time": "2008-12-05",
+        "comment": "撒哈拉的故事",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "左痣",
+        "comment_time": "2010-12-29",
+        "comment": "那年夏天我借过17本三毛。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "CeliaChi|第1颗豆瓣",
+        "comment_time": "2011-02-03",
+        "comment": "“生命的过程，无论是阳春白雪，青菜豆腐，我都得尝尝\n是什么滋味，才不枉来走这么一遭”。。。",
+        "comment_useful": "2",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "结球",
+        "comment_time": "2012-10-28",
+        "comment": "高中的时候看的，还是感动于三毛和荷西的爱情。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "艾星星",
+        "comment_time": "2005-11-10",
+        "comment": "三毛作品中最喜欢这部",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "灰零",
+        "comment_time": "2007-12-26",
+        "comment": "很好看的故事",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "风向未来吹去",
+        "comment_time": "2008-04-10",
+        "comment": "有一天，我会买足全集，然后旅行",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "未名",
+        "comment_time": "2009-05-07",
+        "comment": "小时候读的三毛一系列的书，内容与书名已经对不上了，但是当时的感觉还记得很清楚。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "落莲",
+        "comment_time": "2007-11-08",
+        "comment": "三毛的书我几乎都读过，很美，很真实，喜欢旅行的女子，一辈子漂泊～",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "小木心熊",
+        "comment_time": "2011-07-09",
+        "comment": "流浪。不管在什么环境重要的是你的心。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "[已注销]",
+        "comment_time": "2013-04-14",
+        "comment": "最好看的一本，也许也只有三毛，能把沙漠生活过得如此活灵活现。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "船长",
+        "comment_time": "2008-07-02",
+        "comment": "真我",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方芳芳",
+        "comment_time": "2010-12-06",
+        "comment": "结婚以后看到的又是另一种感觉",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "漫",
+        "comment_time": "2007-07-04",
+        "comment": "中學時代看, 無限嚮往. 三毛 at her best.",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "魷達",
+        "comment_time": "2011-02-05",
+        "comment": "恨自己这么晚才看三毛的书!!感想很多,再看一次写下来",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "白巧克力与茶",
+        "comment_time": "2005-12-16",
+        "comment": "三毛就象仙人掌,在风沙中坚韧的开花.",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "[已注销]",
+        "comment_time": "2013-05-31",
+        "comment": "爱情文章读来，简简单单而又温暖人心",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "渐渐",
+        "comment_time": "2008-11-23",
+        "comment": "因为她，我几乎与大学失之交臂。",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Cim",
+        "comment_time": "2006-09-30",
+        "comment": "在学校里的图书馆站着将它读完 果然很吸引人 我想 我将从此踏上寻三毛之路",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "逍遥地蔷薇~",
+        "comment_time": "2007-10-15",
+        "comment": "三毛陪伴的中学时代",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "summerwind",
+        "comment_time": "2007-10-16",
+        "comment": "关关说我是三毛,在等待荷西",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "didi_wu",
+        "comment_time": "2012-03-29",
+        "comment": "总觉得半真半假，但无所谓了，总之是挺能fulfill我的大漠fantasy的。。。",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "潘驴邓小仁波切",
+        "comment_time": "2013-08-09",
+        "comment": "小学的时候从我妈衣橱翻出来的，另外一本是精神分析导论。",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "圆影",
+        "comment_time": "2008-09-17",
+        "comment": "无根的生活，在沙漠边缘",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "李厂长🉑",
+        "comment_time": "2019-05-01",
+        "comment": "好看死了！我之前洗澡的时候用这书当背景音，错过不少剧情。有人说荷西是虚构的，额…为啥这么煞风景呢。绿绿太坏了，不管什么宗教，不尊重女性，就是邪教，别尼玛洗了！《哑奴》《哭泣的骆驼》看得我好生气",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Monica",
+        "comment_time": "2007-04-23",
+        "comment": "很喜欢那时候三毛的文字",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "發哥404",
+        "comment_time": "2014-08-01",
+        "comment": "未开化的民族做的事情就会比较忘恩负义",
+        "comment_useful": "1",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "阿猫",
+        "comment_time": "2008-07-30",
+        "comment": "三毛的文字，影响了我的一生~这是我读的她的第一本书~",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "米粉",
+        "comment_time": "2010-05-03",
+        "comment": "当年的梦想",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "专程路过",
+        "comment_time": "2012-01-24",
+        "comment": "白手成家，还好是在公共场合看完的，否则，很有可能会哭得很大声。向往的美好生活，曾经的遥不可及。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "Orange",
+        "comment_time": "2020-03-04",
+        "comment": "真的好看，樸質的文字是多麼好，比後來一堆什麼流浪異鄉探索自我的矯情文字不知道高多少（但沙漠生活也太苦了阿一點也不想去（。（他們陷到流沙裡那篇真驚悚，讓我思考了一下拆裝汽車輪子的技能是不是該學一下。。。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "糖宝|鸭梨山大",
+        "comment_time": "2009-09-12",
+        "comment": "还用说吗",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "戴莫卡",
+        "comment_time": "2011-01-28",
+        "comment": "那么自由",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "tatajoker",
+        "comment_time": "2011-06-30",
+        "comment": "亲爱的。那段时光中的你和荷西，多美好。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "松萝",
+        "comment_time": "2018-06-09",
+        "comment": "三毛真真临水照花人，然而就为她当年带我领略到那片神秘的沙漠。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "左撇子_圈",
+        "comment_time": "2011-03-24",
+        "comment": "08年  初   （冬）寂静的日子",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "旖旎♫♪♬",
+        "comment_time": "2006-06-21",
+        "comment": "这样的旅程这样的爱情.",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "靠谱青年™",
+        "comment_time": "2007-07-31",
+        "comment": "漂泊，一生的追求",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "筱婷",
+        "comment_time": "2008-02-24",
+        "comment": "喜欢三毛,没有任何理由.",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "Cainlee",
+        "comment_time": "2007-03-31",
+        "comment": "有人说我的风格像三毛，我问他：那是不是我也是自杀死。。。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "michi",
+        "comment_time": "2008-03-30",
+        "comment": "神秘的沙漠",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "邃。",
+        "comment_time": "2008-10-03",
+        "comment": "沙漠故事.pre小学时代too...给了我很多关于沙漠的第1印象...",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "[已注销]",
+        "comment_time": "2012-01-13",
+        "comment": "绘声绘色，妙趣横生。有荷西在的时候，苦中也可以作乐。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "田挖挖",
+        "comment_time": "2009-12-16",
+        "comment": "三毛的文字总是觉得亲切而姗姗可爱,想起初中趴在床上反反复复看散文的日子了",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "ZERO",
+        "comment_time": "2007-11-25",
+        "comment": "像三毛这么潇洒的女人啊",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "乾达婆抚琴",
+        "comment_time": "2016-05-23",
+        "comment": "你走了以后雨季不再来；你走了以后我也走了。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "花儿",
+        "comment_time": "2007-03-16",
+        "comment": "每次在读她的书之前，总是先被三毛这个女人所感动",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "berry：莓",
+        "comment_time": "2010-12-25",
+        "comment": "唯一看过的",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "x",
+        "comment_time": "2008-01-13",
+        "comment": "可读性很强，从这本书开始喜欢三毛",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "Really？",
+        "comment_time": "2013-09-26",
+        "comment": "三毛大部分作品我总是觉得略矫情 不过撒哈拉的故事还是很有趣。",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "晃 ...",
+        "comment_time": "2007-08-06",
+        "comment": "印象深刻",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "方姝葭。",
+        "comment_time": "2010-10-12",
+        "comment": "羡慕嫉妒恨这样的生活，这可是我儿时的梦想~何必去考究真实性呢，我们知道三毛热爱生活，看到她希望构造的生活是这样的，就足够了呀~",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "萤火虫子",
+        "comment_time": "2010-02-12",
+        "comment": "贪它新鲜好玩，可到底有几多真假。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "痴人",
+        "comment_time": "2007-07-18",
+        "comment": "一直都很喜欢三毛",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "苏颜",
+        "comment_time": "2010-03-18",
+        "comment": "这本书影响了我的小半生",
+        "comment_useful": "0",
+        "comment_star": "力荐"
+    },
+    {
+        "comment_user": "我非你杯茶",
+        "comment_time": "2007-07-10",
+        "comment": "2004年阅读",
+        "comment_useful": "0",
+        "comment_star": "推荐"
+    },
+    {
+        "comment_user": "不完美前行",
+        "comment_time": "2012-06-19",
+        "comment": "我也想去次大沙漠，看满眼黄沙起起伏伏、绵延不绝",
+        "comment_useful": "0",
+        "comment_star": "还行"
+    },
+    {
+        "comment_user": "失控芭乐",
+        "comment_time": "2007-07-28",
+        "comment": "看的三毛的第一本书。转眼已经一个十年。",
+        "comment_useful": "0",
+        "comment_star": "推荐"
     }
 ]

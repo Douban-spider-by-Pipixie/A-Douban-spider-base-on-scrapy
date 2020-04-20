@@ -7,6 +7,7 @@
 
 import scrapy
 
+
 class BookItem(scrapy.Item):
     book_id = scrapy.Field()
     book_img = scrapy.Field()
@@ -17,6 +18,7 @@ class BookItem(scrapy.Item):
     book_publish = scrapy.Field()
     book_date = scrapy.Field()
     book_price = scrapy.Field()
+
 
 class Comment(scrapy.Item):
     comment_user = scrapy.Field()
