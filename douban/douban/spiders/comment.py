@@ -23,7 +23,7 @@ class CommentSpider(scrapy.Spider):
                     # //*[@id="comments"]/ul/li[1]/div[2]/h3/span[2]/a
                     comment_user=comment.xpath(
                         'div[@class="comment"]/h3/span[@class="comment-info"]/a/text()').extract()[0].strip(),
-                    comment_time=comment.xpath(
+                    comment_date=comment.xpath(
                         'div[@class="comment"]/h3/span[@class="comment-info"]/span[2]/text()').extract()[0].strip(),
                     comment=comment.xpath(
                         'div[@class="comment"]/p/span/text()').extract()[0].strip(),

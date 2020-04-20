@@ -33,16 +33,31 @@ scrapy crawl book -o books.json -a tag=科技
 scrapy crawl comment -o comments.json -a bookID=6709783
 ```
 
-### 选择要爬取的 Tag/BookID 在[book.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/book.py)或者[comment.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/comment.py)中设置
+### 选择要爬取的 Tag/BookID 
 
-在spiders文件夹中的BookSpider类中更改（如科技类图书的爬取）：
+爬取书本时，[BookSpider](douban/douban/spiders/book.py) 类要传入tag参数以构造该类爬取对应tag的数据：
 
 ```python
 class BookSpider(scrapy.Spider):
-    start_urls = [
-        'https://book.douban.com/tag/科技'
-    ]
+    name = 'book'
+    tag = ''
+
+    def __init__(self, tag=None, *args, **kwargs):
+        super(BookSpider, self).__init__(*args, **kwargs)
+        self.start_urls = ['https://book.douban.com/tag/' + tag]
+        self.tag = tag
     ···
+```
+构造方法实例：
+```python
+from douban.items import BookItem
+from scrapy.crawler import CrawlerProcess
+
+
+process = CrawlerProcess()
+process.crawl(BookItem(tag = '科技'))
+process.start()
+···
 ```
 
 在spiders文件夹中的CommentSpider类中更改（如BookID = 6709783 图书的爬取）：
@@ -50,10 +65,26 @@ class BookSpider(scrapy.Spider):
 ```python
 class CommentSpider(scrapy.Spider):
     name = 'comment'
-    start_urls = [
-        'https://book.douban.com/subject/6709783/comments/'
-    ]
+    bookid = ''
+
+    def __init__(self, bookID=None, *args, **kwargs):
+        super(CommentSpider, self).__init__(*args, **kwargs)
+        self.start_urls = [
+            'https://book.douban.com/subject/' + bookID + '/comments/']
+        self.bookid = bookID
     ···
+```
+
+构造方法实例：
+```python
+from douban.items import Comment
+from scrapy.crawler import CrawlerProcess
+
+
+process = CrawlerProcess()
+process.crawl(Comment(bookID = '0000001'))
+process.start()
+···
 ```
 
 ### 目前爬取的字段 在[items.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/items.py)中设置
@@ -79,9 +110,6 @@ class Comment(scrapy.Item):
 ```
 
 ### JSON样例(图书) [样例](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/books.json)
-
-JSON中的UTF-8中文字符需要解码！
-
 ```json
 [
     {
@@ -110,9 +138,6 @@ JSON中的UTF-8中文字符需要解码！
 ```
 
 ### JSON样例(评论) [样例](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/comments.json)
-
-JSON中的UTF-8中文字符需要解码！
-
 ```json
 [
    {

@@ -22,7 +22,7 @@ class BookItem(scrapy.Item):
 
 class Comment(scrapy.Item):
     comment_user = scrapy.Field()
-    comment_time = scrapy.Field()
+    comment_date = scrapy.Field()
     comment = scrapy.Field()
     comment_useful = scrapy.Field()
     comment_star = scrapy.Field()
