@@ -6,9 +6,12 @@ from bs4 import BeautifulSoup
 
 class CommentSpider(scrapy.Spider):
     name = 'comment'
-    start_urls = [
-        'https://book.douban.com/subject/6709783/comments/'
-    ]
+    bookid = ''
+
+    def __init__(self, bookID=None, *args, **kwargs):
+        super(CommentSpider, self).__init__(*args, **kwargs)
+        self.start_urls = ['https://book.douban.com/subject/' + bookID + '/comments/']
+        self.bookid = bookID
 
     def parse(self, response):
         sel = scrapy.Selector(response)
@@ -33,7 +36,7 @@ class CommentSpider(scrapy.Spider):
             print(nextPage)
             print(response.url)
             if nextPage:
-                next_url = 'https://book.douban.com/subject/6709783/comments/'+nextPage
+                next_url = 'https://book.douban.com/subject/' + self.bookid +'/comments/'+nextPage
                 print("NextPage:" + next_url)
                 yield scrapy.http.Request(next_url,callback=self.parse)
 

@@ -1,24 +1,33 @@
 # Scrapy
-## V1.2 功能：
-1. 提供书本标签（tag）程序会自动爬取该标签下的全部书籍，可以转为Json格式
-2. 提供书本的ID，程序会爬取该书本的全部评论，可以转为Json格式
+## V1.0 功能 2020-3-15：
+- 网上提供的示例程序作为参考
+
+## V1.1 功能 2020-4-5：
+- 提供书本标签（tag）程序会自动爬取该标签下的全部**书籍**，可以转为Json格式
+
+## V1.2 功能 2020-4-18：
+- 提供书本的ID，程序会爬取该书本的全部**评论**，可以转为Json格式
+- 可以用[管线](douban/douban/pipelines.py)完成数据直接**插入数据库**的操作
+
+## V1.2.1 功能 2020-4-20：
+- 修正了BookSpider和CommentSpider的构造方式，可以通过**传入参数**的方式指定爬取内容
 
 ### 运行脚本
 
 1. 爬取书本
 
-在程序目录运行此命令：
+在程序目录运行此命令（以爬取科技类图书为例）：
 
-```shell
-scrapy crawl book -o books.json
+```bash
+scrapy crawl book -o books.json -a tag=科技
 ```
 
 2. 爬取评论
 
-在程序目录运行此命令：
+在程序目录运行此命令（以书本ID6709783为例）：
 
-```shell
-scrapy crawl comment -o comments.json
+```bash
+scrapy crawl comment -o comments.json -a bookID=6709783
 ```
 
 ### 选择要爬取的 Tag/BookID 在[book.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/book.py)或者[comment.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/spiders/comment.py)中设置

@@ -7,9 +7,12 @@ from bs4 import BeautifulSoup
 
 class BookSpider(scrapy.Spider):
     name = 'book'
-    start_urls = [
-        'https://book.douban.com/tag/\u79d1\u6280'
-    ]
+    tag = ''
+
+    def __init__(self, tag=None, *args, **kwargs):
+        super(BookSpider, self).__init__(*args, **kwargs)
+        self.start_urls = ['https://book.douban.com/tag/' + tag]
+        self.tag = tag
 
     def parse(self, response):
         sel = scrapy.Selector(response)
