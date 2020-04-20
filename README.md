@@ -7,7 +7,7 @@
 
 ## V1.2 功能 2020-4-18：
 - 提供书本的ID，程序会爬取该书本的全部**评论**，可以转为Json格式
-- 可以用[管线](douban/douban/pipelines.py)完成数据直接**插入数据库**的操作
+- 可以用 [管线](douban/douban/pipelines.py) 完成数据直接**插入数据库**的操作
 
 ## V1.2.1 功能 2020-4-20：
 - 修正了BookSpider和CommentSpider的构造方式，可以通过**传入参数**的方式指定爬取内容
@@ -27,13 +27,13 @@ scrapy crawl book -o books.json -a tag=科技
 
 2. 爬取评论
 
-在程序目录运行此命令（以书本ID6709783为例）：
+在程序目录运行此命令（以书本ID: 6709783 为例）：
 
 ```bash
 scrapy crawl comment -o comments.json -a bookID=6709783
 ```
 
-### 选择要爬取的 Tag/BookID 
+### 选择要爬取的 Tag / BookID 
 
 爬取书本时，[BookSpider](douban/douban/spiders/book.py) 类要传入tag参数以构造该类爬取对应tag的数据：
 
@@ -48,7 +48,7 @@ class BookSpider(scrapy.Spider):
         self.tag = tag
     ···
 ```
-构造方法实例：
+[BookSpider](douban/douban/spiders/book.py) 构造方法实例：
 ```python
 from douban.items import BookItem
 from scrapy.crawler import CrawlerProcess
@@ -60,7 +60,7 @@ process.start()
 ···
 ```
 
-在spiders文件夹中的CommentSpider类中更改（如BookID = 6709783 图书的爬取）：
+爬取书本时，[Comment](douban/douban/spiders/comment.py) 类要传入BookID参数以构造该类爬取对应BookID的数据：
 
 ```python
 class CommentSpider(scrapy.Spider):
@@ -75,7 +75,7 @@ class CommentSpider(scrapy.Spider):
     ···
 ```
 
-构造方法实例：
+[Comment](douban/douban/spiders/comment.py) 构造方法实例：
 ```python
 from douban.items import Comment
 from scrapy.crawler import CrawlerProcess
@@ -87,7 +87,7 @@ process.start()
 ···
 ```
 
-### 目前爬取的字段 在[items.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/items.py)中设置
+### 目前爬取的字段 在 [items.py](https://github.com/Douban-spider-by-Pipixie/Scrapy/blob/master/douban/douban/items.py) 中设置
 
 ```python
 class BookItem(scrapy.Item):
