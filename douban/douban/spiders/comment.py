@@ -30,10 +30,14 @@ class CommentSpider(scrapy.Spider):
                 pass
         try:
             nextPage = sel.xpath('//*[@id="content"]/div/div[1]/div/div[3]/ul/li[3]/a/@href').extract()[0].strip()
+            print(nextPage)
+            print(response.url)
             if nextPage:
-                next_url = response.url + nextPage
+                next_url = 'https://book.douban.com/subject/6709783/comments/'+nextPage
+                print("NextPage:" + next_url)
                 yield scrapy.http.Request(next_url,callback=self.parse)
 
         except Exception as e:
-            print(e.args)
+            print(e.with_traceback)
+            print('Next Page Error!')
             pass
