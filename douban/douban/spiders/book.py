@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 class BookSpider(scrapy.Spider):
     name = 'book'
     tag = ''
+    custom_settings = {
+        # 'ITEM_PIPELINES': {'douban.pipelines.BookItemPipeline': 300}
+    }
 
     def __init__(self, tag=None, *args, **kwargs):
         super(BookSpider, self).__init__(*args, **kwargs)
@@ -24,7 +27,7 @@ class BookSpider(scrapy.Spider):
                 ).replace('https://book.douban.com/subject/', '').replace('/', '')
                 pub = book.xpath(
                     'div[@class="info"]/div[@class="pub"]/text()').extract()[0].strip().split('/')
-                #print(pub)
+                # print(pub)
                 item = BookItem(
 
                     book_id=bookid,
@@ -54,7 +57,7 @@ class BookSpider(scrapy.Spider):
             nextPage = sel.xpath(
                 '//div[@id="subject_list"]/div[@class="paginator"]/span[@class="next"]/a/@href').extract()[0].strip()
             if nextPage:
-                next_url = 'https://book.douban.com'+nextPage
+                next_url = 'https://book.douban.com' + nextPage
                 yield scrapy.http.Request(next_url, callback=self.parse)
         except:
             pass
