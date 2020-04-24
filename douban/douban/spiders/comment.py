@@ -8,7 +8,8 @@ class CommentSpider(scrapy.Spider):
     name = 'comment'
     bookid = ''
     custom_settings = {
-        # 'ITEM_PIPELINES': {'douban.pipelines.CommentItemPipeline': 300}
+        # 'ITEM_PIPELINES': {'douban.pipelines.CommentItemSynPipeline': 300}
+        'ITEM_PIPELINES': {'douban.pipelines.CommentItemAsynPipeline': 300}
     }
 
     def __init__(self, bookID=None, *args, **kwargs):
