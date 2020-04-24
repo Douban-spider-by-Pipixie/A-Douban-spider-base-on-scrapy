@@ -26,3 +26,7 @@ class Comment(scrapy.Item):
     comment = scrapy.Field()
     comment_useful = scrapy.Field()
     comment_star = scrapy.Field()
+
+class Tag(scrapy.Item):
+    tag_name = scrapy.Field()
+    tag_isHot = scrapy.Field()
