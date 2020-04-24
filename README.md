@@ -10,11 +10,17 @@
 - 可以用 [管线](douban/douban/pipelines.py) 完成数据直接插入数据库的操作
 
 ### V1.2.1 功能 2020-4-20：
-- 修正了[BookSpider](douban/douban/spiders/book.py)和[CommentSpider](douban/douban/spiders/comment.py)的构造方式，可以通过传入参数的方式指定爬取内容
+- 修正了 [BookSpider](douban/douban/spiders/book.py) 和 [CommentSpider](douban/douban/spiders/comment.py) 的构造方式，可以通过传入参数的方式指定爬取内容
 
 ### V1.2.2 功能 2020-4-20：
 - 修正了生成Json时候的UTF-8编码错误
 - 字段"comment_time" 改为 "comment_date"
+  
+### V1.2.3 功能 2020-4-24：
+- 数据库的插入改为异步方法NIO，有效提升效率
+
+### V1.3.3 功能 2020-4-25：
+- 增加 [tag.py](douban/douban/spiders/tag.py) 可以爬取所有标签和热门标签
 
 ### 运行脚本
 
@@ -32,6 +38,14 @@ scrapy crawl book -o books.json -a tag=科技
 
 ```bash
 scrapy crawl comment -o comments.json -a bookID=6709783
+```
+
+3. 爬取标签
+
+在程序目录运行此命令（以书本ID: 6709783 为例）：
+
+```bash
+scrapy crawl tag -o tags.json
 ```
 
 ### 选择要爬取的 Tag / BookID 
@@ -162,5 +176,20 @@ class Comment(scrapy.Item):
         "comment_useful": "2",
         "comment_star": "推荐"
     }
+]
+```
+
+### JSON样例(标签) [样例](douban/tags.json)
+```json
+[
+    {"tag_name": "交互", "tag_isHot": false},
+    {"tag_name": "通信", "tag_isHot": false},
+    {"tag_name": "UE", "tag_isHot": false},
+    {"tag_name": "神经网络", "tag_isHot": false},
+    {"tag_name": "UCD", "tag_isHot": false},
+    {"tag_name": "程序", "tag_isHot": false},
+    {"tag_name": "小说", "tag_isHot": true},
+    {"tag_name": "历史", "tag_isHot": true},
+    {"tag_name": "日本", "tag_isHot": true}
 ]
 ```
