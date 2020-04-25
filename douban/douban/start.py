@@ -12,4 +12,7 @@ from scrapy import cmdline
 # cmdline.execute("scrapy crawl book -a tag=科技".split())
 
 # scrapy comment_info where bookID=6709783
-cmdline.execute("scrapy crawl comment -a bookID=6709783".split())
+# cmdline.execute("scrapy crawl comment -a bookID=6709783".split())
+
+#scrapy tag
+cmdline.execute("scrapy crawl tag".split())
