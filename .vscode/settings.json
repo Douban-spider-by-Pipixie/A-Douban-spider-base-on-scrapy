@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "test1.0",
+            "dialect": "MySQL",
+            "name": "MySQL Connection",
+            "password": "16251425Zyq",
+            "port": 10087,
+            "server": "cdb-e0agigrr.gz.tencentcdb.com",
+            "username": "root"
+        }
+    ]
+}
