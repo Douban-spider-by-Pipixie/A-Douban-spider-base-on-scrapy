@@ -22,6 +22,11 @@
 ### V1.3.3 功能 2020-4-25：
 - 增加 [tag.py](douban/douban/spiders/tag.py) 可以爬取所有标签和热门标签
 
+### V1.3.4 功能 2020-4-27
+- 增加 [mysql_util.py](douban/douban/utils/mysql_util.py) 作为数据库连接池工具类
+  - [pipelines.py](douban/douban/pipelines.py) 需要引入工具类重构
+- 更新了 [start.py](douban/douban/start.py) 加入了自动爬虫功能，直接运行脚本即可
+
 ### 运行脚本
 
 1. 爬取书本
