@@ -1,6 +1,8 @@
 import scrapy
 import re
-from douban.items import Tag
+import sys
+sys.path.append("..")
+from items import Tag
 from bs4 import BeautifulSoup
 
 

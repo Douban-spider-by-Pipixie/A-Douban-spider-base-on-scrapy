@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
-from douban.items import BookItem
+import sys
+sys.path.append("..")
+from items import BookItem
 from bs4 import BeautifulSoup
 
 
@@ -52,8 +54,8 @@ class BookSpider(scrapy.Spider):
                 )
                 yield item
             except Exception as e:
-                print(e.args)
                 print("Yield Book Error!")
+                print('\t- Book Not Found!')
                 pass
         try:
             nextPage = sel.xpath(

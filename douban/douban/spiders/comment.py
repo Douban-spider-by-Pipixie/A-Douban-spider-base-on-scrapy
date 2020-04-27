@@ -1,6 +1,8 @@
 import scrapy
 import re
-from douban.items import Comment
+import sys
+sys.path.append("..")
+from items import Comment
 from bs4 import BeautifulSoup
 
 

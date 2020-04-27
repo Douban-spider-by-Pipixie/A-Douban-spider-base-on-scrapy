@@ -1,6 +1,8 @@
 import scrapy
 from urllib import request
 from PIL import Image
+import sys
+sys.path.append("..")
 
 
 class DoubanLoginSpiderSpider(scrapy.Spider):

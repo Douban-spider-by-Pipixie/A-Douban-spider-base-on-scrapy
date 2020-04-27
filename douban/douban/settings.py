@@ -30,6 +30,13 @@ ROBOTSTXT_OBEY = False
 
 FEED_EXPORT_ENCODING = 'utf-8'
 
+MYSQL_HOST = 'cdb-e0agigrr.gz.tencentcdb.com'
+MYSQL_PORT = 10087
+MYSQL_DATABASE = 'test1.0'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = '16251425Zyq'
+MYSQL_CHARSET = 'utf8'
+
 '''
 ITEM_PIPELINES = {
     'douban.pipelines.DoubanPipeline': 300,

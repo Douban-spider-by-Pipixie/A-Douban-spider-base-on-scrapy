@@ -8,27 +8,27 @@ from scrapy.utils.project import get_project_settings
 
 
 class MysqlUtil(object):
-
-    # 获取setting文件中的配置
-    settings = get_project_settings()
-
-    config = {
-        'host': 'cdb-e0agigrr.gz.tencentcdb.com',
-        'port': 10087,
-        'database': 'test1.0',
-        'user': 'root',
-        'password': '16251425Zyq',
-        'charset': 'utf8'
-    }
-
     """
     MYSQL数据库对象，负责产生数据库连接 , 此类中的连接采用连接池实现获取连接对象：conn = Mysql.getConn()
             释放连接对象;conn.close()或del conn
     """
     # 连接池对象
     __pool = None
+    #配置元组
+    config = {}
 
     def __init__(self):
+
+        settings = get_project_settings()
+        MysqlUtil.config = {
+            'host':settings.get('MYSQL_HOST'),
+            'port':settings.get('MYSQL_PORT'),
+            'database':settings.get('MYSQL_DATABASE'),
+            'user':settings.get('MYSQL_USER'),
+            'password':settings.get('MYSQL_PASSWORD'),
+            'charset':settings.get('MYSQL_CHARSET')
+        }
+
         # 数据库构造函数，从连接池中取出连接，并生成操作游标
         self._conn = MysqlUtil.get_conn()
         self._cursor = self._conn.cursor()
@@ -41,14 +41,24 @@ class MysqlUtil(object):
         @return MySQLdb.connection
         """
         if MysqlUtil.__pool is None:
-            __pool = PooledDB(creator=pymysql, mincached=1, maxcached=20, host=MysqlUtil.config['host'], port=MysqlUtil.config['port'], user=MysqlUtil.config['user'], passwd=MysqlUtil.config['password'], db=MysqlUtil.config['database'], charset=MysqlUtil.config['charset'])
+            __pool = PooledDB(
+                creator=pymysql,
+                mincached=1,
+                maxcached=20,
+                host=MysqlUtil.config['host'],
+                port=MysqlUtil.config['port'],
+                user=MysqlUtil.config['user'],
+                passwd=MysqlUtil.config['password'],
+                db=MysqlUtil.config['database'],
+                charset=MysqlUtil.config['charset']
+            )
         return __pool.connection()
 
     # 查询所有数据
     def get_all(self, sql, param=None):
         """
         @summary: 执行查询，并取出所有结果集
-        @param sql:查询ＳＱＬ，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
+        @param sql:查询SQL，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
         @param param: 可选参数，条件列表值（元组/列表）
         @return: result list(字典对象)/boolean 查询到的结果集
         """
@@ -69,7 +79,7 @@ class MysqlUtil(object):
     def get_one(self, sql, param=None):
         """
         @summary: 执行查询，并取出第一条
-        @param sql:查询ＳＱＬ，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
+        @param sql:查询SQL，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
         @param param: 可选参数，条件列表值（元组/列表）
         @return: result list/boolean 查询到的结果集
         """
@@ -90,7 +100,7 @@ class MysqlUtil(object):
     def get_count(self, sql, param=None):
         """
         @summary: 执行查询，返回结果数
-        @param sql:查询ＳＱＬ，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
+        @param sql:查询SQL，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
         @param param: 可选参数，条件列表值（元组/列表）
         @return: result list/boolean 查询到的结果集
         """
@@ -107,7 +117,7 @@ class MysqlUtil(object):
     def get_many(self, sql, num, param=None):
         """
         @summary: 执行查询，并取出num条结果
-        @param sql:查询ＳＱＬ，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
+        @param sql:查询SQL，如果有查询条件，请只指定条件列表，并将条件值使用参数[param]传递进来
         @param num:取得的结果条数
         @param param: 可选参数，条件列表值（元组/列表）
         @return: result list/boolean 查询到的结果集
@@ -129,7 +139,7 @@ class MysqlUtil(object):
     def insert_one(self, sql, value):
         """
         @summary: 向数据表插入一条记录
-        @param sql:要插入的ＳＱＬ格式
+        @param sql:要插入的SQL格式
         @param value:要插入的记录数据tuple/list
         @return: insertId 受影响的行数
         """
@@ -144,7 +154,7 @@ class MysqlUtil(object):
     def insert_many(self, sql, values):
         """
         @summary: 向数据表插入多条记录
-        @param sql:要插入的ＳＱＬ格式
+        @param sql:要插入的SQL格式
         @param values:要插入的记录数据tuple(tuple)/list[list]
         @return: count 受影响的行数
         """
@@ -178,7 +188,7 @@ class MysqlUtil(object):
     def update(self, sql, param=None):
         """
         @summary: 更新数据表记录
-        @param sql: ＳＱＬ格式及条件，使用(%s,%s)
+        @param sql: SQL格式及条件，使用(%s,%s)
         @param param: 要更新的  值 tuple/list
         @return: count 受影响的行数
         """
@@ -188,7 +198,7 @@ class MysqlUtil(object):
     def delete(self, sql, param=None):
         """
         @summary: 删除数据表记录
-        @param sql: ＳＱＬ格式及条件，使用(%s,%s)
+        @param sql: SQL格式及条件，使用(%s,%s)
         @param param: 要删除的条件 值 tuple/list
         @return: count 受影响的行数
         """
