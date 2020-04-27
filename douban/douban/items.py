@@ -18,6 +18,7 @@ class BookItem(scrapy.Item):
     book_publish = scrapy.Field()
     book_date = scrapy.Field()
     book_price = scrapy.Field()
+    book_tag = scrapy.Field()
 
 
 class Comment(scrapy.Item):

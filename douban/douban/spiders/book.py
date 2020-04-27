@@ -47,7 +47,8 @@ class BookSpider(scrapy.Spider):
                     book_price=pub.pop(),
                     book_date=pub.pop(),
                     book_publish=pub.pop(),
-                    book_author='/'.join(pub)
+                    book_author='/'.join(pub),
+                    book_tag = self.tag
                 )
                 yield item
             except Exception as e:
