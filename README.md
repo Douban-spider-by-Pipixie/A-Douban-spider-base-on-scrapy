@@ -27,6 +27,10 @@
   - [pipelines.py](douban/douban/pipelines.py) 需要引入工具类重构
 - 更新了 [start.py](douban/douban/start.py) 加入了自动爬虫功能，直接运行脚本即可
 
+### V1.3.5 功能 2020-4-28
+- 修复了项目层次结构的问题
+- 把数据库连接参数放入settings.py
+
 ### 运行脚本
 
 1. 爬取书本
