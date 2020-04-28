@@ -10,7 +10,6 @@ class CommentSpider(scrapy.Spider):
     name = 'comment'
     bookid = ''
     custom_settings = {
-        # 'ITEM_PIPELINES': {'douban.pipelines.CommentItemSynPipeline': 300}
         'ITEM_PIPELINES': {'douban.pipelines.CommentItemAsynPipeline': 300}
     }
 

@@ -1,6 +1,6 @@
 import scrapy
 from urllib import request
-from PIL import Image
+# from PIL import Image
 import sys
 sys.path.append("..")
 
