@@ -11,8 +11,8 @@ class BookSpider(scrapy.Spider):
     name = 'book'
     tag = ''
     custom_settings = {
-        # 'ITEM_PIPELINES': {'douban.pipelines.BookItemSynPipeline': 300}
-        'ITEM_PIPELINES': {'douban.pipelines.BookItemAsynPipeline': 300}
+        'ITEM_PIPELINES': {'douban.pipelines.BookItemAsynPipeline': 100,
+                           'douban.pipelines.BookTagsAsynPipeline': 100}
     }
 
     def __init__(self, tag=None, *args, **kwargs):

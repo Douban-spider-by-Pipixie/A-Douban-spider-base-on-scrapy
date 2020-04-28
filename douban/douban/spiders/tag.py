@@ -12,9 +12,7 @@ class TagSpider(scrapy.Spider):
         'https://book.douban.com/tag/'
     ]
     custom_settings = {
-        # 'ITEM_PIPELINES': {'douban.pipelines.TagItemSynPipeline': 300},
         'ITEM_PIPELINES': {'douban.pipelines.TagItemAsynPipeline': 300}
-
     }
 
     def parse(self, response):
