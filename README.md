@@ -33,6 +33,9 @@
 - 新增booktag管道，用于存储图书-标签对
 - 修改pipeline中用于数据库连接的配置，同一从settings获取，避免后期修改时需要深入代码内部
 
+### V1.4.5 功能 2020-5-28
+- 新增了爬取书本详情的功能[bookDetail.py](douban/douban/spiders/bookDetail.py) , 传入bookID爬取书本简介、书本目录、书本作者简介
+
 ### 运行脚本
 
 1. 爬取书本
