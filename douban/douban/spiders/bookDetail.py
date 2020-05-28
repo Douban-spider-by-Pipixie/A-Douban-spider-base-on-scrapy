@@ -24,9 +24,11 @@ class BookDetailSpider(scrapy.Spider):
         sel = scrapy.Selector(response)
         try:
             item = BookDetail(
-                book_introduct = sel.xpath('//div[@id="link-report"]/span[@class="short"]/div[@class="intro"]').xpath("string(.)").extract()[0].replace('...(展开全部)','').replace('\n', ''),
-                table = sel.xpath('//*[@id="dir_'+self.bookid+'_full"]').xpath('string(.)').extract()[0].replace('\n', '').replace('· · · · · ·     (收起)',''),
-                author_introduct = sel.xpath('//div[@class="related_info"]/div[@class="indent "]/div/div[@class="intro"]').xpath('string(.)').extract()[0].replace('\n', ''),
+                book_introduct = sel.xpath('//div[@id="link-report"]//div[@class="intro"]').xpath("string(.)").extract()[0].replace('...(展开全部)','').replace('\n', '').replace('\t', ''),
+
+                table = sel.xpath('//*[@id="dir_'+self.bookid+'_full"]').xpath('string(.)').extract()[0].replace('\n', '').replace('· · · · · ·     (收起)','').replace('\t', ''),
+
+                author_introduct = sel.xpath('//div[@class="related_info"]//div[@class="intro"]').xpath('string(.)').extract()[0].replace('\n', '').replace('\t', ''),
                 book_id = self.bookid
             )
             yield item
