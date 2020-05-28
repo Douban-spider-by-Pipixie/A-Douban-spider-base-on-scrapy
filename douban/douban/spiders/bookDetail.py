@@ -11,7 +11,7 @@ class BookDetailSpider(scrapy.Spider):
     bookid = ''
 
     custom_settings = {
-        'ITEM_PIPELINES': {'douban.pipelines.BookDetailAsynPipeline': 300}
+        'ITEM_PIPELINES': {'douban.pipelines.BookDetailAsynPipeline': 100}
     }
 
     def __init__(self, bookID=None, *args, **kwargs):

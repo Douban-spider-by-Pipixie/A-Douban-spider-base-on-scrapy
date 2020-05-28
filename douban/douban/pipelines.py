@@ -244,8 +244,8 @@ class BookDetailAsynPipeline(object):
         comment_values = (
             item['book_id'],
             item['book_introduct'],
-            item['author_introduct'],
-            item['table']
+            item['table'],
+            item['author_introduct']
         )
         sql = 'INSERT INTO book_detail VALUES(%s,%s,%s,%s)'
         cursor.execute(sql, comment_values)
