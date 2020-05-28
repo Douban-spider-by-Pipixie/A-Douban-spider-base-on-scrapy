@@ -35,7 +35,8 @@ class CommentSpider(scrapy.Spider):
                     comment_useful=comment.xpath(
                         'div[@class="comment"]/h3/span[@class="comment-vote"]/span/text()').extract()[0].strip(),
                     comment_star=comment.xpath(
-                        'div[@class="comment"]/h3/span[@class="comment-info"]/span[1]/@title').extract()[0].strip()
+                        'div[@class="comment"]/h3/span[@class="comment-info"]/span[1]/@title').extract()[0].strip(),
+                    book_id = self.bookid
                 )
                 yield item
             except Exception as e:

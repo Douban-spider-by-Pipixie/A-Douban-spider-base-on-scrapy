@@ -1,0 +1,17 @@
+"filename", "language", "Python", "Properties", "comment", "blank", "total"
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\__init__.py", "Python", 0, 0, 0, 1, 1
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\items.py", "Python", 21, 0, 5, 7, 33
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\middlewares.py", "Python", 33, 0, 46, 25, 104
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\pipelines.py", "Python", 145, 0, 37, 28, 210
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\settings.py", "Python", 18, 0, 70, 25, 113
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\spiders\__init__.py", "Python", 0, 0, 4, 1, 5
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\spiders\book.py", "Python", 55, 0, 7, 6, 68
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\spiders\comment.py", "Python", 53, 0, 1, 6, 60
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\spiders\tag.py", "Python", 37, 0, 0, 5, 42
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\spiders\user.py", "Python", 47, 0, 8, 9, 64
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\start.py", "Python", 48, 0, 15, 8, 71
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\utils\__init__.py", "Python", 0, 0, 0, 1, 1
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\utils\mysqlAsync_util.py", "Python", 27, 0, 0, 7, 34
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\douban\utils\mysql_util.py", "Python", 122, 0, 88, 17, 227
+"f:\360MoveData\Users\HP\Desktop\Scrapy\douban\douban\scrapy.cfg", "Properties", 0, 4, 5, 3, 12
+"Total", "-", 606, 4, 286, 149, 1045

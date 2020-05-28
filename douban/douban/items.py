@@ -22,6 +22,7 @@ class BookItem(scrapy.Item):
 
 
 class Comment(scrapy.Item):
+    book_id = scrapy.Field()
     comment_user = scrapy.Field()
     comment_date = scrapy.Field()
     comment = scrapy.Field()
@@ -31,3 +32,9 @@ class Comment(scrapy.Item):
 class Tag(scrapy.Item):
     tag_name = scrapy.Field()
     tag_isHot = scrapy.Field()
+
+class BookDetail(scrapy.Item):
+    book_id = scrapy.Field()
+    book_introduct = scrapy.Field()
+    author_introduct = scrapy.Field()
+    table = scrapy.Field()
