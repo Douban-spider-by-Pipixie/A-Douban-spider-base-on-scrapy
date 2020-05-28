@@ -9,11 +9,10 @@ from bs4 import BeautifulSoup
 class BookDetailSpider(scrapy.Spider):
     name = 'bookDetail'
     bookid = ''
-    '''
+
     custom_settings = {
-        'ITEM_PIPELINES': {'douban.pipelines.BookDetailAsynAsynPipeline': 300}
+        'ITEM_PIPELINES': {'douban.pipelines.BookDetailAsynPipeline': 300}
     }
-    '''
 
     def __init__(self, bookID=None, *args, **kwargs):
         super(BookDetailSpider, self).__init__(*args, **kwargs)
