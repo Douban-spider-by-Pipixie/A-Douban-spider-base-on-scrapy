@@ -28,7 +28,6 @@ class MysqlUtil(object):
             'password':settings.get('MYSQL_PASSWORD'),
             'charset':settings.get('MYSQL_CHARSET')
         }
-        print(MysqlUtil.config)
 
         # 数据库构造函数，从连接池中取出连接，并生成操作游标
         self._conn = MysqlUtil.get_conn()

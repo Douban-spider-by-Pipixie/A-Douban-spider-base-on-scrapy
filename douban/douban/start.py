@@ -2,6 +2,8 @@ from scrapy import cmdline
 from scrapy.crawler import CrawlerRunner
 from utils.mysql_util import MysqlUtil
 from spiders.book import BookSpider
+from spiders.bookDetail import BookDetailSpider
+from spiders.comment import CommentSpider
 from scrapy.utils.project import get_project_settings
 from twisted.internet import reactor, defer
 from scrapy.utils.log import configure_logging
@@ -25,8 +27,10 @@ import pymysql
 #     \|_______|\|__|\|__|\|__|\|__|\|____________|\|_______|\|_______|\|__|\|__|
 
 conn = MysqlUtil()
-tags = conn.get_all('SELECT * FROM `test1.0`.`tag_Asyn`')
-print(tags)
+#tags = conn.get_all('SELECT * FROM `test1.0`.`tag_Asyn`')
+ids = conn.get_all('SELECT `test1.0`.`book_Asyn`.`book_id` FROM `test1.0`.`book_Asyn` LEFT JOIN `test1.0`.`book_detail` ON `test1.0`.`book_Asyn`.`book_id` = `test1.0`.`book_detail`.`book_id` WHERE `book_introduct` IS NULL;')
+print(ids)
+#cids = conn.get_all(' SELECT `test1.0`.`book_Asyn`.`book_id` FROM `test1.0`.`book_Asyn` LEFT JOIN `commenttable_Asyn` cA on `book_Asyn`.`book_id` = cA.`book_id` WHERE `comment` IS NULL; ')
 runner = CrawlerRunner(get_project_settings())
 
 @defer.inlineCallbacks
@@ -38,33 +42,34 @@ def crawl():
             print('*********************')
 
             yield runner.crawl(BookSpider,tag=tag[0])
-
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 6s')
-            print('')
-            time.sleep(1)
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 5s')
-            print('')
-            time.sleep(1)
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 4s')
-            print('')
-            time.sleep(1)
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 3s')
-            print('')
-            time.sleep(1)
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 2s')
-            print('')
-            time.sleep(1)
-            print('->'+ tag[0]+' FINISH' +'')
-            print('\t->SLEEPING FOR 1s')
-            print('')
-            time.sleep(1)
         reactor.stop()
 
-crawl()
-#阻塞
+@defer.inlineCallbacks
+def detail():
+    while True:
+        for ID in ids:
+            print('*********************')
+            print('\t\a' + ID[0])
+            print('*********************')
+
+            yield runner.crawl(BookDetailSpider,bookID=ID[0])
+
+            time.sleep(1)
+
+        reactor.stop()
+
+@defer.inlineCallbacks
+def comment():
+    while True:
+        for ID in cids:
+            print('*********************')
+            print('\t\a' + ID[0])
+            print('*********************')
+
+            yield runner.crawl(CommentSpider,bookID=ID[0])
+
+        reactor.stop()
+
+detail()
+#comment()
 reactor.run()

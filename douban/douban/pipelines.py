@@ -249,9 +249,12 @@ class BookDetailAsynPipeline(object):
         )
         sql = 'INSERT INTO book_detail VALUES(%s,%s,%s,%s)'
         cursor.execute(sql, comment_values)
+        print("SENDING EXECUTION ···\a")
 
     def handle_error(self, failure):
         if failure:
             # 打印错误信息
             print("BookDetail Insert to DB failed")
             print(failure)
+        else:
+            print("DB receive")
